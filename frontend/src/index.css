@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8e1ec 0%, #f7c1d9 100%);
+  min-height: 100vh;
+  margin: 0;
+  color: #2d2d2d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e85ca7;
+  font-weight: 700;
+}
+
+nav {
+  background: #fff0f6;
+  border-bottom: 2px solid #e85ca7;
+}
+
+nav .font-bold {
+  color: #e85ca7;
+}
+
+a {
+  color: #e85ca7;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #b83280;
+}
+
+button, .bg-blue-600 {
+  background: linear-gradient(90deg, #e85ca7 0%, #f7c1d9 100%);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(232, 92, 167, 0.1);
+}
+
+.bg-white {
+  background: #fff0f6 !important;
+}
+
+input, textarea {
+  border: 1px solid #e85ca7;
+  background: #fff;
+  color: #2d2d2d;
+}
+
+pre {
+  background: #fff0f6;
+  border-left: 4px solid #e85ca7;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e85ca7;
+  border-radius: 8px;
+}
+::-webkit-scrollbar {
+  background: #fff0f6;
+  width: 8px;
+}
