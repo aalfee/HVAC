@@ -1,9 +1,8 @@
 from django.urls import path
-from .views import SimulationView, PredictionView, DataIngestionView, api_root_view
+from .views import anomaly_detection
+from .health import health_check
 
 urlpatterns = [
-    path('', api_root_view, name='api-root'),
-    path('simulate/', SimulationView.as_view(), name='simulate'),
-    path('predict/', PredictionView.as_view(), name='predict'),
-    path('ingest/', DataIngestionView.as_view(), name='ingest'),
+    path("health/", health_check, name="health_check"),
+    path("anomalies/", anomaly_detection, name="anomaly_detection"),
 ]
