@@ -3,6 +3,9 @@
 
 A full-stack web platform for simulating HVAC system performance, monitoring energy usage, and predicting faults using AI. Built to empower technicians, facility managers, and researchers to make data-driven decisions and reduce energy waste.
 
+Read more about my energy efficiency blog here 
+
+alfiyay.com/blog/energy-derivatives
 ---
 
 ## 🚀 Features
